@@ -6,10 +6,12 @@ import { ResponsibleGamingSection } from "@/components/responsible-gaming-sectio
 import { GuideSection } from "@/components/guide-section"
 import { OurChoiceSection } from "@/components/our-choice-section"
 import { Footer } from "@/components/footer"
+import { WelcomeModal } from "@/components/welcome-modal"
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
+      <WelcomeModal />
       <Header />
       <main>
         <HeroSection />
