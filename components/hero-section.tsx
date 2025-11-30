@@ -11,7 +11,7 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-[420px] md:min-h-[480px] bg-secondary overflow-hidden pt-16">
+    <section className="relative min-h-[420px] md:min-h-[480px] bg-secondary overflow-hidden pt-4">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Gradient overlay */}
